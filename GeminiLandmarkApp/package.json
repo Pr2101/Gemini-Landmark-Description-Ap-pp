@@ -1,0 +1,21 @@
+{
+  "name": "gemini-landmark-app",
+  "version": "1.0.0",
+  "description": "A landmark recognition and travel recommendation app using Gemini AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["landmark", "ai", "travel", "gemini"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "electron": "^29.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
